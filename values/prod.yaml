@@ -1,0 +1,18 @@
+replicaCount: 4
+
+image:
+  repository: cloudacademydevops/webappecho
+  tag: v4
+  pullPolicy: Always
+
+env:
+  HOSTPORT:
+    value: "0.0.0.0:8080"
+  MESSAGE:
+    value: "CloudAcademy ❤ DevOps - Prod"
+  BACKGROUND_COLOR:
+    value: "Orange"
+
+service:
+  type: ClusterIP
+  port: 8080
