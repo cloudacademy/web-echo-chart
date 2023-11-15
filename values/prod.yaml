@@ -2,7 +2,7 @@ replicaCount: 4
 
 image:
   repository: cloudacademydevops/webappecho
-  tag: v4
+  tag: latest
   pullPolicy: Always
 
 env:
