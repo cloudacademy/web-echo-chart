@@ -6,12 +6,10 @@ image:
   pullPolicy: Always
 
 env:
-  HOSTPORT:
-    value: "0.0.0.0:8080"
   MESSAGE:
     value: "CloudAcademy ❤ DevOps - Dev"
   BACKGROUND_COLOR:
-    value: "DodgerBlue"
+    value: "lime"
 
 service:
   type: ClusterIP
