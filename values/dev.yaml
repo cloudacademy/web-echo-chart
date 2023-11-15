@@ -9,7 +9,7 @@ env:
   MESSAGE:
     value: "CloudAcademy ❤ DevOps - Dev"
   BACKGROUND_COLOR:
-    value: "lime"
+    value: "yellow"
 
 service:
   type: ClusterIP
